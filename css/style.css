@@ -1,0 +1,187 @@
+h1{
+	font-size: 60px;
+}
+.container{
+font-size: 50px;	
+}
+.box1{
+	width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation-name: linear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes linear{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+.box2{
+	width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: ease;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ease{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+.box3{
+	width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ease-in;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ease-in{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+.box4{
+	width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation-name: ease-out;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ease-out{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+.box5{
+	width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: ease-in-out;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ease-in-out{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+/*curser start*/
+.alias{
+    cursor: alias;
+}
+.all-scroll{
+cursor: all-scroll; 
+}
+.auto{
+    cursor: auto;
+}
+.cell{
+    cursor: cell;
+}
+.col-resize{
+    cursor: col-resize;
+}
+.context-menu{
+    cursor: context-menu;
+}
+.copy{
+    cursor: copy;
+}
+.crosshair{
+    cursor: crosshair;
+}
+.default{
+    cursor: default;
+}
+.e-resize{
+    cursor: e-resize;
+}
+.ew-resize{
+    cursor: ew-resize;
+}
+.grab{
+cursor: grab;
+}
+.grabbing{
+cursor: grabbing;
+}
+.help{
+cursor: help;
+}
+.move{
+cursor: move;
+}
+.n-resize{
+cursor: n-resize;
+}
+.ne-resiz{
+cursor: ne-resize;
+}
+.nesw-resize{
+cursor: nesw-resize;
+}
+.ns-resize{
+cursor: ns-resize;
+}
+.nw-resize{
+cursor: nw-resize;
+}
+.nwse-resize{
+cursor: nwse-resize;
+}
+.no-drop{
+    cursor: no-drop;
+}
+.none{
+cursor: none;
+}
+.not-allowe{
+cursor: not-allowed;
+}
+.pointer{
+cursor: pointer;
+}
+.progress{
+cursor: progress;
+}
+.row-resize{
+cursor: row-resize;
+}
+.s-resize{
+cursor: s-resize;
+}
+.se-resize{
+cursor: se-resize;
+}
+.sw-resize{
+cursor: sw-resize;
+}
+.text{
+cursor: text;
+}
+.url{
+    cursor: url(myball), auto;
+}
+.w-resize{
+cursor: w-resize;
+}
+.wait{
+cursor: wait;
+}
+.zoom-in{
+cursor: zoom-in;
+}
+.zoom-out{
+cursor: zoom-out;
+}
+
+/*curser end*/
